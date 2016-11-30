@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(http://www.bagdadmovies.com/images/bagdad_movies/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  line-height: 1.4em
+}
+
+.container {
+  max-width: 975px;
+}
+
+.navback {
+  background-color: #231508;
+  width: 100vw;
+  height: 98px;
+}
+
+.navbar-default {
+  background-color: #231508;
+  border: none;
+}
+
+.navbar-header {
+  height: 70px;
+}
+
+.navbar-nav {
+  margin-top: 20px;
+  float: right;
+}
+
+.navbar-nav a {
+  color: #da7e25 !important;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.navbar-brand {
+  float: left;
+}
+
+.navbar-toggle {
+  border: none;
+  position: relative;
+  top: 18px;
+}
+
+.navbar-collapse {
+  border: none;
+  width: 960px;
+}
+
+.icon-bar {
+  color: #da7e25;
+  background-color: #da7e25 !important;
+}
+
+.illustration {
+  position: relative;
+  background-color: rgba(21,11,7, 0.5);
+  height: 550px;
+  width: 294px;
+  margin-top: 20px;
+  overflow: visible;
+}
+
+.illustration img {
+  width: 85%;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.showtimes {
+  border: 1px solid #5C4B43;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.showtimes-box {
+  border: 1px solid #5C4B43;
+  background-color: rgba(48, 39, 30, 0.8);;
+  padding: 13px;
+  overflow: auto;
+  text-align: center;
+}
+
+.showtimes-box button {
+  background-color: #DA7E25;
+  border: none;
+  border-bottom: 4px solid #AE651E;
+  padding: 5px;
+  color: white;
+  margin: 6px;
+  margin-left: 10px;
+  float: left;
+  height: 35px;
+  width: 100px;
+}
+
+.showtimes-box h4 {
+  margin-top: 0;
+}
+
+.showtimes p {
+  clear: both;
+  margin: 8px;
+}
+
+#beasts-showtimes {
+  border-left: 1px solid #5C4B43;
+}
+
+.dropdown {
+  margin: 15px auto;
+}
+
+.dropdown button {
+  width: 90%;
+  color: black;
+  background-color: white;
+  box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.2);
+  border: none;
+  height: 40px;
+  text-align: left;
+}
+
+.orange-button {
+  background-color: #DA7E25;
+  border: none;
+  border-bottom: 4px solid #AE651E;
+  padding: 5px;
+  color: white;
+  margin-top: 15px;
+  font-family: 'Arvo', serif;
+  -webkit-font-smoothing: antialiased;
+  width: 136px;
+  font-size: 16px;
+}
+
+.now-playing {
+  border-bottom: 1px solid #5C4B43;
+  padding-bottom: 30px;
+  min-height: 400px;
+}
+
+.now-playing img {
+  float: left;
+  height: 293px;
+  width: auto;
+  margin-right: 25px;
+}
+
+.now-playing a {
+  color: #da7e25;
+  font-size: 15px;
+  font-family: 'Arvo', serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.now-playing p {
+  color: white;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Arvo', serif;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  min-height: 350px;
+  width: 100vw;
+  background-color: #502009;
+  border: none;
+  color: white;
+  /*margin-top: 30px;*/
+  padding-top: 20px;
+  overflow: visible;
+}
+
+#footer-row {
+  width: 975px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding-bottom: 20px;
+  border-bottom: 1px solid #5C4B43;
+}
+
+.footer a {
+  color: #da7e25;
+}
+
+.footer .copyright {
+  position: absolute;
+  bottom: -45px;
+}
+
+@media only screen and (max-width: 990px) {
+  .navback {
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navback {
+    height: 83px;
+  }
+  .navbar-brand img {
+    height: 43px;
+    width: 199px;
+  }
+}
