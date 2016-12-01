@@ -39,7 +39,7 @@ a {
 .navback {
   background-color: #231508;
   width: 100vw;
-  height: 98px;
+  height: 97px;
 }
 
 .navbar-default {
@@ -48,20 +48,15 @@ a {
 }
 
 .navbar-header {
-  height: 70px;
+  /*height: 70px;*/
 }
 
 .navbar-nav {
   margin-top: 20px;
-  float: right;
 }
 
 .navbar-nav a {
   color: #da7e25 !important;
-}
-
-.navbar-nav {
-  float: right;
 }
 
 .navbar-brand {
@@ -247,7 +242,10 @@ a {
 
 @media only screen and (max-width: 990px) {
   .navback {
-    height: 120px;
+    height: 97px;
+  }
+  .navbar-nav {
+    float: none;
   }
 }
 
